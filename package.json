@@ -1,0 +1,31 @@
+{
+  "name": "asynchronism",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "start:callback": "node src/callback/index.js",
+    "start:callback:challenge": "node src/callback/challenge.js",
+    "start:promise": "node src/promise/index.js",
+    "start:promise:challenge": "node src/promise/challenge.js",
+    "start:async": "node src/async/index.js",
+    "start:async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaFrisicaro/asynchronism.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielaFrisicaro/asynchronism/issues"
+  },
+  "homepage": "https://github.com/DanielaFrisicaro/asynchronism#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
