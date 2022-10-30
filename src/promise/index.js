@@ -44,3 +44,5 @@ Promise.all([somethingWillHappen(), somethingWillHappen2()])
 .catch(err=>{
     console.error(err)
 })
+
+//LOS ARGUMENTOS DE UNA PROMESA SON : RESOLVE Y REJECT

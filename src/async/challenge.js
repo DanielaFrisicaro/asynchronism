@@ -21,3 +21,7 @@ const anotherFunction = async (url_api) => {
 console.log('Before')
 anotherFunction(API)
 console.log('After')
+
+//¿Cómo aseguramos manejar los errores asincrónicos correctamente?
+
+//TRY(código)....CATCH (error)

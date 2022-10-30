@@ -24,11 +24,11 @@ function loadDoc() {
 const fetchData = (url_api) => {
     return new Promise((resolve, reject) => {
 
-
+//LO MODIFICO DE LO QUE UTILICE EN CALLBACKS, PARA USARLO EN PROMISE.
         const xhttp = new XMLHttpRequest();
         xhttp.open('GET', url_api, true)//3er valor activar el asincronismo
         xhttp.onreadystatechange = (() => {
-            if (xhttp.readyState === 4) {
+            if (xhttp.readyState === 4) {//4 SIGNIFICA QUE HA SIDO COMPLETADO.
 
                 (xhttp.status === 200)
                     ? resolve(JSON.parse(xhttp.responseText))
